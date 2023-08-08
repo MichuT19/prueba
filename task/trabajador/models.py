@@ -7,9 +7,9 @@ from datetime import datetime
 from django.utils import timezone
 import pytz
 from django.core.exceptions import ValidationError
-from home.cliente.models import *
-from home.administrador.models import *
-from home.trabajador.models import *
+from task.cliente.models import *
+from task.administrador.models import *
+from task.trabajador.models import *
 from django.contrib import admin
 from django.urls import reverse
 from django.utils.html import format_html
@@ -20,7 +20,7 @@ from django.contrib.gis.geos import Point
 from django.dispatch import receiver
 from django.db.models.signals import pre_save
 
-from home.trabajador.models import *
+from task.trabajador.models import *
 
 class Cita(models.Model):
     id_cita = models.AutoField(primary_key=True)
