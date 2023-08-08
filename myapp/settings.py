@@ -43,38 +43,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'task',
     'rest_framework',
-    #'jazzmin',
+    'jazzmin',
     'openpyxl',
 ]
-
-JAZZMIN_SETTINGS = {
-    "site_title": "UbicMedic Admin",
-    "site_header": "UbicMedic",
-    "site_brand": "UbicMedic",
-    "site_logo": "img/logo.png",
-    "copyright": "Play",
-    "welcome_sign": "UBICMEDIC",
-
-    "hide_apps": ["auth","Autenticación y autorización"],
-   
-     "usermenu_links": [
-        
-            {"model": "auth.user"}
-        ],
-    "hide_models": ["auth.group"], 
-    'icons':{
-        'task.Cita':'fas fa-plus-circle',
-        'task.Calificacion':'fas fa-user-check',
-        'task.ClasificacionDeEnfermerdades':'fas fa-project-diagram',
-        'task.Cliente':'fas fa-user',
-        'task.Servicio':'fas fa-sticky-note',
-        'task.trabajador':'fas fa-user-md',
-        'task.Enfermedades':'fas fa-heartbeat',
-        'task.EnfermedadesxPaciente':'fas fa-head-side-mask',
-        'task.Profesiones':'fas fa-users',        
-        'task.TipoTrabajador':'fas fa-user-check',
-    }
-}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

@@ -1,7 +1,7 @@
 import os
 import django
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "home.settings")  # Reemplaza "tuprojecto" con el nombre de tu proyecto Django
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "myapp.settings")  # Reemplaza "tuprojecto" con el nombre de tu proyecto Django
 django.setup()
 
 from django.contrib.auth.models import User
