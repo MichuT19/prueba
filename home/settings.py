@@ -42,7 +42,37 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'task',
+    'rest_framework',
 ]
+
+JAZZMIN_SETTINGS = {
+    "site_title": "UbicMedic Admin",
+    "site_header": "UbicMedic",
+    "site_brand": "UbicMedic",
+    "site_logo": "img/logo.png",
+    "copyright": "Play",
+    "welcome_sign": "UBICMEDIC",
+
+    "hide_apps": ["auth","Autenticación y autorización"],
+   
+     "usermenu_links": [
+        
+            {"model": "auth.user"}
+        ],
+    "hide_models": ["auth.group"], 
+    'icons':{
+        'home.Cita':'fas fa-plus-circle',
+        'home.Calificacion':'fas fa-user-check',
+        'home.ClasificacionDeEnfermerdades':'fas fa-project-diagram',
+        'home.Cliente':'fas fa-user',
+        'home.Servicio':'fas fa-sticky-note',
+        'home.trabajador':'fas fa-user-md',
+        'home.Enfermedades':'fas fa-heartbeat',
+        'home.EnfermedadesxPaciente':'fas fa-head-side-mask',
+        'home.Profesiones':'fas fa-users',        
+        'home.TipoTrabajador':'fas fa-user-check',
+    }
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -80,12 +110,16 @@ WSGI_APPLICATION = 'home.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.config(
-        # Feel free to alter this value to suit your needs.
-        default='postgresql://postgres:postgres@localhost:5432/mysite',
-        conn_max_age=600
-    )
+    "default": {
+        "ENGINE": 'django.db.backends.postgresql',
+        "NAME": "UBICMEDIC1",
+        "USER": "postgres",
+        "PASSWORD": "admin",
+        "HOST": "localhost",
+        "PORT": "5432",
+    }
 }
+
 
 
 # Password validation
