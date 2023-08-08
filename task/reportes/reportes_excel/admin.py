@@ -2,7 +2,7 @@ import csv,openpyxl
 from openpyxl.utils import get_column_letter
 from django.http import HttpResponse
 from openpyxl import Workbook
-from home.cliente.models import Calificacion
+from task.cliente.models import Calificacion
 from openpyxl.styles import PatternFill
 # #Pais
 def reportexcel_pais(modeladmin,request,queryset):

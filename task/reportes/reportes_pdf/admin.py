@@ -7,7 +7,7 @@ from reportlab.platypus import SimpleDocTemplate,Paragraph, Table, TableStyle
 from reportlab.pdfgen import canvas
 
 
-from home.trabajador.models import *
+from task.trabajador.models import *
 from datetime import datetime
 from io import BytesIO
 from reportlab.lib.pagesizes import letter

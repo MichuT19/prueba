@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'task',
     'rest_framework',
     #'jazzmin',
+    'openpyxl',
 ]
 
 JAZZMIN_SETTINGS = {
