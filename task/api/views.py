@@ -1,8 +1,8 @@
 from rest_framework.viewsets import ModelViewSet
-from home.administrador import models
-from home.cliente import models
-from home.trabajador import models
-from home.api import serializers
+from task.administrador import models
+from task.cliente import models
+from task.trabajador import models
+from task.api import serializers
 
 from rest_framework.views import APIView
 from rest_framework.response import Response

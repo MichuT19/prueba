@@ -1,8 +1,8 @@
 
 from rest_framework.serializers import ModelSerializer,CharField,SerializerMethodField,ImageField
-from home.administrador import models
-from home.cliente import models
-from home.trabajador import models
+from task.administrador import models
+from task.cliente import models
+from task.trabajador import models
 
 class ProfesionesSerializer(ModelSerializer):
     class Meta:
