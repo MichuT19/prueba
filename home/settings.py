@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'task',
     'rest_framework',
-    'jazzmin',
+    #'jazzmin',
 ]
 
 JAZZMIN_SETTINGS = {
