@@ -62,16 +62,16 @@ JAZZMIN_SETTINGS = {
         ],
     "hide_models": ["auth.group"], 
     'icons':{
-        'home.Cita':'fas fa-plus-circle',
-        'home.Calificacion':'fas fa-user-check',
-        'home.ClasificacionDeEnfermerdades':'fas fa-project-diagram',
-        'home.Cliente':'fas fa-user',
-        'home.Servicio':'fas fa-sticky-note',
-        'home.trabajador':'fas fa-user-md',
-        'home.Enfermedades':'fas fa-heartbeat',
-        'home.EnfermedadesxPaciente':'fas fa-head-side-mask',
-        'home.Profesiones':'fas fa-users',        
-        'home.TipoTrabajador':'fas fa-user-check',
+        'task.Cita':'fas fa-plus-circle',
+        'task.Calificacion':'fas fa-user-check',
+        'task.ClasificacionDeEnfermerdades':'fas fa-project-diagram',
+        'task.Cliente':'fas fa-user',
+        'task.Servicio':'fas fa-sticky-note',
+        'task.trabajador':'fas fa-user-md',
+        'task.Enfermedades':'fas fa-heartbeat',
+        'task.EnfermedadesxPaciente':'fas fa-head-side-mask',
+        'task.Profesiones':'fas fa-users',        
+        'task.TipoTrabajador':'fas fa-user-check',
     }
 }
 
