@@ -2,10 +2,10 @@ from django.urls import path
 from .views import lista
 from django.conf import settings
 from django.conf.urls.static import static
-from home.api.views import ObtenerToken
+from task.api.views import ObtenerToken
 
 from rest_framework import routers
-from home.api import views
+from task.api import views
 
 # urlpatterns = [
 #     path('',lista)
